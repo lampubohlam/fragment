@@ -332,6 +332,7 @@ Yang ketiga, buka AndroidManifest.xml dan tambahkan code berikut:
 
 
 
+![Cuplikan layar 2023-12-17 234857](https://github.com/lampubohlam/fragment/assets/116137169/59864e15-962a-4297-8abd-b817ac913a31)
 
 
 
