@@ -326,9 +326,9 @@ public void btnFragmentActivity(View view) {
                     startActivity(fragact);
                 }
 Yang ketiga, buka AndroidManifest.xml dan tambahkan code berikut:
-<activity
-        android:name=".FragmentActivity"
-        android:exported="true" />
+                        <activity
+                                android:name=".FragmentActivity"
+                                android:exported="true" />
 
 
 
