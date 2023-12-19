@@ -6,7 +6,7 @@
 
 Perintah Tugas
 Buatlah fragment menu dengan tema Genre Film (Action, Komedi dan Romance) tampilan bisa berisi sinopsis film dan gambar dari film tersebut contoh seperti ini :
-![image](https://github.com/lampubohlam/fragment/assets/116137169/b52bbf5d-49fb-4c53-b5ef-1ccf1a48998c)
+
 
 
 # Buka activity_fragment.xml dan layoutnya :
