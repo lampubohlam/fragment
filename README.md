@@ -9,7 +9,7 @@ Buatlah fragment menu dengan tema Genre Film (Action, Komedi dan Romance) tampil
 ![image](https://github.com/lampubohlam/fragment/assets/116137169/b52bbf5d-49fb-4c53-b5ef-1ccf1a48998c)
 
 
-# Buka activity_fragment.xml dan tambahkan code berikut untuk tampilan layoutnya :
+# Buka activity_fragment.xml dan layoutnya :
                   <?xml version="1.0" encoding="utf-8"?>
                   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                       xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -320,15 +320,15 @@ Karena satu baris horizontal maximal tiga buah tombol dan kemarin sudah terisi p
                       </LinearLayout>
 tambahkan baris code ini dibawah linearlayout kedua.
 
-Yang kedua, buka MainActivity.java dan tambahkan code intent untuk project fragmentnya. Berikut adalah codenya:
-public void btnFragmentActivity(View view) {
-                    Intent fragact = new Intent(MainActivity.this, FragmentActivity.class);
-                    startActivity(fragact);
-                }
-Yang ketiga, buka AndroidManifest.xml dan tambahkan code berikut:
-                        <activity
-                                android:name=".FragmentActivity"
-                                android:exported="true" />
+Yang kedua, buka MainActivity.java dan tambahkan code intent untuk project fragmentnya
+      public void btnFragmentActivity(View view) {
+                          Intent fragact = new Intent(MainActivity.this, FragmentActivity.class);
+                          startActivity(fragact);
+                      }
+      Yang ketiga, buka AndroidManifest.xml dan tambahkan code berikut:
+                              <activity
+                                      android:name=".FragmentActivity"
+                                      android:exported="true" />
 
 
 
