@@ -299,7 +299,7 @@ package com.example.tugassepuluh;
                                   }
                               }
 
-Karena satu baris horizontal maximal tiga buah tombol dan kemarin sudah terisi penuh semua, maka sekarang kita harus membuat baris baru lagi untuk tombol project fragment ini. Berikut adalah codenya :
+Karena satu baris horizontal maximal tiga buah tombol dan membuat baris baru lagi untuk tombol project fragment ini. Berikut adalah codenya :
 
 
                   <LinearLayout
